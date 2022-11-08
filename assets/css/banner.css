@@ -1,0 +1,11 @@
+.banner{
+    background: #e9e9;
+    height: 352px;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+    top: 115px;
+    border-radius: 0px;
+    padding: 32px;
+}

@@ -1,0 +1,11 @@
+.banner__titulo{
+    width: 751px;
+    height: 61px;
+    float: left;
+    margin-bottom: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+}
