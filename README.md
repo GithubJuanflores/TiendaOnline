@@ -16,11 +16,6 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 -----
 Disponemos de un plazo de seis semanas para desarrollar el proyecto y trabajaremos con el sistema de desarrollo ágil, utilizando el Trello de la siguiente manera:
 
-1. La columna **Listos para iniciar** presenta las tarjetas con elementos que aun no fueron desarrollados.
-2. En la columna **En Desarrollo** estarán los elementos que estés desarrollando en el momento. Al iniciar una tarea, podrás mover la tarjeta que contiene dicha tarea para esta columna.
-3. En la columna **Pausado** estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
-4. Por fin, en la columna **Concluido** estarán los elementos ya concluidos.
-
 El Trello es una herramienta de uso individual para que puedas controlar el progreso de tus actividades, pero no será evaluada.
 
 Buen proyecto!
