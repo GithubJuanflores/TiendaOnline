@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mystery Box Criptomonedas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+    <title>Alura Geek</title>
     <link href="./assets/css/normalize.css" rel="stylesheet"/>
     <link href="./assets/css/reset.css" rel="stylesheet"/>
     <link href="./assets/css/cabecera.css" rel="stylesheet"/>
-    <link href="./assets/css/cabecera/cabecera-botonLogin.css" rel="stylesheet"/>
-    <link href="./assets/css/cabecera/cabecera-buscar.css" rel="stylesheet"/>
-    <link href="./assets/css/cabecera/cabecera-logo.css" rel="stylesheet"/>
+    <link href="./assets/css/cabecera/cabecera-login.css" rel="stylesheet"/>
+    <link href="./assets/css/cabecera/cabecera-texto.css" rel="stylesheet"/>
+    <link href="./assets/css/cabecera/logo.css" rel="stylesheet"/>
     <link href="./assets/css/banner.css" rel="stylesheet"/>
     <link href="./assets/css/banner/banner__boton.css" rel="stylesheet"/>
     <link href="./assets/css/banner/banner__comentario.css" rel="stylesheet"/>
@@ -19,156 +22,215 @@
     <link href="./assets/css/productos/consolas.css" rel="stylesheet"/>
     <link href="./assets/css/productos/diversos.css" rel="stylesheet"/>
     <link href="./assets/css/productos/starwars.css" rel="stylesheet"/>
-    <link href="./assets/css/productos.css" rel="stylesheet"/>
+    <link href="./assets/css/productos__principal.css" rel="stylesheet"/>
+    <link href="./assets/css/productos/vertodo.css" rel="stylesheet"/>
+    <link href="./assets/css/productos/consolas__vertodo.css" rel="stylesheet"/>
+    <link href="./assets/css/productos/diversos__vertodo.css" rel="stylesheet"/>
+    <link href="./assets/css/productos/productos__starwars.css" rel="stylesheet"/>
+    <link href="./assets/css/productos/productos__diversos.css" rel="stylesheet"/>
+    <link href="./assets/css/productos/productos__consolas.css" rel="stylesheet"/>
+    <link href="./assets/css/productos/producto.css" rel="stylesheet"/>
+    <link href="./assets/css/productos/producto__imagen.css" rel="stylesheet"/>
+    <link href="./assets/css/productos/producto__precio.css" rel="stylesheet"/>
+    <link href="./assets/css/productos/producto__nombre.css" rel="stylesheet"/>
+    <link href="./assets/css/productos/producto__boton.css" rel="stylesheet"/>
+    <link href="./assets/css/productos/titulo.css" rel="stylesheet"/>
+    <link href="./assets/css/productos/enlace.css" rel="stylesheet"/>
+    <link href="./assets/css/contacto.css" rel="stylesheet"/>
+    <link href="./assets/css/pie__pagina.css" rel="stylesheet"/>
+    <link href="./assets/css/lista__footer.css" rel="stylesheet"/>
+    <link href="./assets/css/texto__rodapie.css" rel="stylesheet"/>
 </head>
 <body>
     <!--
-        en el header me falta terminar de distribuir los elementos.
+       solo faltan detalles en el header.
     -->
     <header class="cabecera">
-        <div class="cabecera-logos">
-            <img class="cabecera-imagenLogo" src="./assets/img/logo.png" alt="logo">
-        </div>
-        <form class="cabecera-buscar">
-            <label for="search">Buscar</label>
-            <input type="search" placeholder="¿que deceas buscar?">
-        </form>
-        <button class="cabecera-botonLogin">Ingresa </button>
+        <img class="logo" src="./assets/img/logo.png" alt="logo">
+        <nav class="cabecera">
+            <div class="cabecera-texto">
+                <input i type="text" placeholder="Qué deseas buscar?">
+            </div>
+            <div class="cabecera-login">
+                <a href="login.html"><button type="submit">Login</button></a>
+            </div>
+        </nav>
     </header>
-
-    <main>
-        <section class="banner">
+    <section class="banner">
         <img class="banner__imagen" src="/assets/img/banner.png" alt="banner">
         <div class="banner__titulo">Febrero Promocional</div>
         <div class="banner__comentario">Productos selecionados con 33% de descuento</div>
         <button class="banner__boton">Ver Consolas </button>
-        </section>
+    </section>
  <!--
         Productos aun me falta definir correctamente las "class"
     -->
         <br>
-        <section class="productos">
+        <section class="productos__principal">
+            <div class="vertodo">
+                <h2 class="titulo">Star Wars</h2>
+                <a class="enlace" src="#">Ver todo -></a>
+            </div>
             <div class="productos__starwars">
-                <h2>star wars</h2>
-                <a class="" src="#">Ver todo Starwars</a>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/canecasw.png" alt="imagen producto">
+                    <h3 class="producto__nombre">nombre del producto</h3>
+                    <p class="producto__precio">Precio</p>
+                    <a class="producto__boton" src="#"> Ver producto</a>
+                </div>
+                <div class="producto">
+                    <img class="producto__imagen" src="/assets/img/legosw.png" alt="imagen producto">
+                    <h3 class="producto__nombre">nombre del producto</h3>
+                    <p class="producto__precio">Precio</p>
+                    <a class="producto__boton" src="verproducto.html" >Ver producto</a>
+                </div>
+                <div class="producto">
+                    <img class="producto__imagen" src="/assets/img/yoda.png" alt="imagen yoda">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/stormtropper.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/babyyoda.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/mandalorian.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
-                    <h3 class="producto__nombre">nombre del producto</h3>
-                    <p class="producto__precio">Precio</p>
-                    <a class="producto__boton">Ver producto</a>
-                </div>
-                <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
-                    <h3 class="producto__nombre">nombre del producto</h3>
-                    <p class="producto__precio">Precio</p>
-                    <a class="producto__boton">Ver producto</a>
-                </div>
+            </div>
+            <div class="vertodo">
+                <h2 class="titulo">Consolas</h2>
+                <a class="enlace" src="#">Ver todo -></a>
             </div>
             <div class="productos__consolas">
-                <h2>Consolas</h2>
-                <a class="" src="#">Ver todo Starwars</a>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/jsxbox.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/ps5.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/snes.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/switch.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/console.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/gba.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
             </div>
+            <div class="vertodo">
+                <h2 class="titulo">Diversos</h2>
+                <a class="enlace" src="#">Ver todo -></a>
+            </div>
             <div class="productos__diversos">
-                <h2>Diversos</h2>
-                <a class="" src="#">Ver todo Starwars</a>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/atari.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/camisasnes.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/sonic.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/relogio.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/vr.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
                 <div class="producto">
-                    <img class="producto__imagen" src="" alt="">
+                    <img class="producto__imagen" src="/assets/img/pikachu.png" alt="imagen producto">
                     <h3 class="producto__nombre">nombre del producto</h3>
                     <p class="producto__precio">Precio</p>
                     <a class="producto__boton">Ver producto</a>
                 </div>
             </div>
         </section>
-    </main>
+        <footer class="pie__pagina">
+            <img class="imagen__footer" src="./assets/img/logo.png" alt="logo">
+            <div class="lista__footer">
+                <ul>
+                    <li>
+                        <h4>Quienes Somos</h4>
+                    </li>
+                    <li>
+                        <h4>Politica de privacidad</h4>
+                    </li>
+                    <li>
+                        <h4>Programa de fidelidad</h4>
+                    </li>
+                    <li>
+                        <h4>Nuestras Tiendas</h4>
+                    </li>
+                    <li>
+                        <h4>Quiero ser franquiciado</h4>
+                    </li>
+                    <li>
+                        <h4>Anuncie aqui</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="contacto">
+                <h4 class="contacto__titulo">Hable con nosotros</h4>
+                <input class="contacto__nombre" i type="text" placeholder="Nombre">
+                <input class="contacto__mensaje" i type="text" placeholder="escribe tu mensaje">
+                <button class="contacto__boton">Enviar mensaje</button>
+            </div>
+        </footer>
+
+        <rodapie>
+            <h5 class="texto__rodapie">Desarrollado por Juan Flores
+                2022
+            </h5>
+
+        </rodapie>
 </body>
 </html>
