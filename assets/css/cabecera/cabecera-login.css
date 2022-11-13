@@ -1,0 +1,17 @@
+.cabecera-login{
+    margin-left: 160px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    border: 1px solid #2A7AE4;
+    
+}
+.cabecera-login:hover{
+    background-color: var(--azul-destaque);
+    color: var(--texto-destaque);
+}

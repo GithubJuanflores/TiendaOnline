@@ -1,0 +1,20 @@
+.cabecera-texto{
+    margin-left: 175px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecera-texto input{
+    margin-left: 10%;
+    width: 395px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 1% 3%;
+    border: none;
+    background-color: var(--input-bg);
+    background-image: url(/assets/img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 390px;
+}

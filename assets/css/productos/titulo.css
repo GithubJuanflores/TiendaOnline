@@ -1,0 +1,13 @@
+.titulo{
+    margin-left: 152px;
+    width: 148px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+/* identical to box height */
+/* Preto/100% */
+    color: #464646;
+}

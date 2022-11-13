@@ -1,7 +1,16 @@
+:root {
+    --bg-color: #ebebeb;
+    --input-placeholder: #d4d4d4;
+    --input-bg: #efefef;
+    --texto-destaque: #FFFF;
+    --azul-destaque: #2a7ae4;
+    --bg-contacto: #Eaf2fd;
+  }
+
 .cabecera{
+    background: var(--texto-destaque);
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 115px;
-    width: 1440px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }

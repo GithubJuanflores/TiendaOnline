@@ -1,8 +1,12 @@
 .banner__titulo{
+    background-color: var(--texto-destaque);
+    position: absolute;
+    background: none;
+    top: 150px;
+    left: 152;
     width: 751px;
     height: 61px;
-    float: left;
-    margin-bottom: 10px;
+    margin-left: 152px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;

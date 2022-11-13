@@ -1,5 +1,5 @@
 .banner__imagen{
+    width: 100%;
     height: 352px;
-    width: 1440px;
-
+    display: flex;
 }
